@@ -34,10 +34,7 @@ include 'components/wishlist_cart.php';
 <?php include 'components/user_header.php'; ?>
 
 <section class="search-form">
-   <form action="" method="post">
-      <input type="text" name="search_box" placeholder="search here..." maxlength="100" class="box" required>
-      <button type="submit" class="fas fa-search" name="search_btn"><img src="images/search-outline.svg" alt=""></button>
-   </form>
+   
 </section>
 
 <section class="products" style="padding-top: 0; min-height:100vh;">

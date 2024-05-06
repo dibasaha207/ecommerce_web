@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
    <form action="" method="post">
       <h3>log in</h3>
       <div class="name">
-      <input type="email" name="email" required placeholder="enter your username" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="email" name="email" required placeholder="enter your email" maxlength="200"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
       </div>
       <div class="pass">
       <input type="password" name="pass" required placeholder="enter your password" maxlength="20"  class="box" oninput="this.value = this.value.replace(/\s/g, '')">
@@ -62,6 +62,7 @@ if(isset($_POST['submit'])){
       <div class="login">
         <p class="text">don't have an account? <a href="user_register.php">register now</a></p>
       <input type="submit" value="log in" class="btn" name="submit">
+      
       </div>
    </form>
 
